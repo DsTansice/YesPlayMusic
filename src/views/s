@@ -1,7 +1,7 @@
 <template>
   <div class="settings">
     <div class="container">
-      <div class="user" v-if="showUserInfo">
+      <div class="user" v-if="showUserInfo
         <div class="left">
           <img class="avatar" :src="data.user.avatarUrl" />
           <div class="info">
@@ -44,7 +44,7 @@
         </div>
         <div class="right">
           <select v-model="appearance">
-            <option value="auto">{{ $t("settings.appearance.auto") }}</option>
+            <option value="auto">{{ $t("settings.appearance.auto") }}</opion>
             <option value="light"
               >🌞 {{ $t("settings.appearance.light") }}</option
             >
@@ -53,7 +53,7 @@
             >
           </select>
         </div>
-      </div>
+      </div
       <div class="item">
         <div class="left">
           <div class="title"> {{ $t("settings.musicQuality.text") }} </div>
