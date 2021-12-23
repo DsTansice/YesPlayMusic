@@ -2,8 +2,8 @@
   "name": "零域云音乐",
   "version": "0.3.6",
   "private": true,
-  "description": "发现你的美！A third party music player for Netease Music",
-  "author": "Pin Young<0zone@0skyu.cn>",
+  "description": "A third party music player for Netease Music",
+  "author": "PinYoung<0zone@0skyu.cn>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
