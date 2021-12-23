@@ -18,7 +18,7 @@ module.exports = {
     },
   },
   pwa: {
-    name: "YesPlayMusic",
+    name: "零域云音乐",
     iconPaths: {
       favicon32: "img/icons/favicon-32x32.png",
     },
@@ -35,7 +35,7 @@ module.exports = {
       entry: "src/main.js",
       template: "public/index.html",
       filename: "index.html",
-      title: "YesPlayMusic",
+      title: "零域云音乐-发现你的美",
       chunks: ["main", "chunk-vendors", "chunk-common", "index"],
     },
   },
@@ -61,15 +61,15 @@ module.exports = {
       nodeIntegration: true,
       externals: ["@nondanee/unblockneteasemusic", "@njzy/unblockneteasemusic"],
       builderOptions: {
-        productName: "YesPlayMusic",
-        copyright: "Copyright © YesPlayMusic",
+        productName: "零域云音乐",
+        copyright: "Copyright © 零域（0skyu.cn）",
         // compression: "maximum", // 机器好的可以打开，配置压缩，开启后会让 .AppImage 格式的客户端启动缓慢
         asar: true,
         publish: [
           {
-            provider: "github",
-            owner: "qier222",
-            repo: "YesPlayMusic",
+            provider: "零域",
+            owner: "Pin Young",
+            repo: "零域云音乐",
             vPrefixedTagName: true,
             releaseType: "draft",
           },
@@ -99,7 +99,7 @@ module.exports = {
               arch: ["x64"],
             },
           ],
-          publisherName: "YesPlayMusic",
+          publisherName: "零域云音乐",
           icon: "build/icons/icon.ico",
           publish: ["github"],
         },
