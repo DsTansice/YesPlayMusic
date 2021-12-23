@@ -338,10 +338,7 @@
       </div>
 
       <div class="footer">
-        <p class="author"
-          >MADE BY
-          <a href="https://0skyu.cn" target="_blank">PinYoung</a></p
-        >
+        <p class="author">MADE BY<a href="http://0skyu.cn" target="_blank">PinYoung</a></p>
         <p class="version">v{{ version }}</p>
       </div>
     </div>
